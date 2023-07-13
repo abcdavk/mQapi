@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "myQuestAPI by @abcdavk",
+    "name": "myQuestAPI",
     "uuid": "128d1c2b-094e-44c0-a6a1-4110bee47b80",
     "version": [
       1,
-      4,
-      0
+      3,
+      7
     ],
     "min_engine_version": [
       1,
       20,
-      0
+      10
     ]
   },
   "modules": [
@@ -20,8 +20,8 @@
       "uuid": "f034b99d-9286-4c9e-915d-bef795c31cb2",
       "version": [
         1,
-        4,
-        0
+        3,
+        7
       ]
     },
     {
@@ -30,20 +30,20 @@
       "uuid": "7249f35e-5123-4350-a250-a0a4b1b9abe8",
       "version": [
         1,
-        4,
-        0
+        3,
+        7
       ],
-      "entry": "scripts/src/mQapi.js"
+      "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
     {
       "module_name": "@minecraft/server",
-      "version": "1.3.0-beta"
+      "version": "1.4.0-beta"
     },
     {
       "module_name": "@minecraft/server-ui",
-      "version": "1.1.0-beta"
+      "version": "1.2.0-beta"
     }
   ]
 }
