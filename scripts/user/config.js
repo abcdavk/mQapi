@@ -10,11 +10,6 @@ const myQuestAPI = {
         description: "Complate quest to getting reward" // Description
     },
     getQuest: {
-    	isNamespace: { 
-			isDefault: false,  // Useless  for now. If true, will use default namespace
-    							 	 // so you don't need to write namespace anymore
-			namespace: "minecraft:" // Only work if "isDefault: true"
-		},
         itemHand: "minecraft:book",
         items: [
             "minecraft:coal",
