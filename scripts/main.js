@@ -38,7 +38,7 @@ world.afterEvents.playerSpawn.subscribe((eventData) => {
   let player = eventData.player
   if (!questDB.has(player)) {
     questDB.set(player.nameTag, "")
-    if (player.hasTag(systemTag)) {
+    if (player.isOP()) {
       msgHandler(player, `Set up successfully`)
       msgHandler(player, `is active \n§eUsage command: /scriptevent m:quest`, false)
     }
