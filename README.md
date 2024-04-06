@@ -15,7 +15,7 @@ Open quest UI for your self, just like open ui with a item.
 
 ### /scriptevent m:quest edit
 Open edit UI. You can `add`, `remove` or `reset` player quest databases here by entering player `nameTag`.
-mQapi will provide available player nameTag if you enter the wrong player nameTag.
+mQapi will show available player nameTag if you enter the wrong player nameTag.
 
 ### /scriptevent m:quest about
 Just inform about this addons.
