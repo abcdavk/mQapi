@@ -1,4 +1,4 @@
-# mQapi (myQuestAPI)
+# mQapi (myQuestAPI) v2
 Create quest easly for your minigames, addon pack, or server. Without any limitations. Support custom items and blocks. 
 
 [Download latest](https://github.com/abcdavk/mQapi/releases)
