@@ -35,7 +35,7 @@ export function formEdit(player) {
             } else {
                 let databaseList = "Undefined player databases. List of available players:\n"
                 questDB.forEach((value, key) => {
-                    databaseList += "- " + key + "\n";
+                    databaseList += `- ${key}\n`;
                 });
                 msgHandler(player, databaseList)
             }
